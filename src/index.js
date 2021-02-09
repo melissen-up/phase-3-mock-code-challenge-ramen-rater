@@ -44,9 +44,7 @@ function eventFetch(event){
     fetch(`http://localhost:3000/ramens/${ramenImageId}`)
     .then(response => response.json())
     .then(showRamenInfo)
-    // console.log(event.target)
-
-    
+    // console.log(event.target)    
 }
 
 function showRamenInfo(ramenObj){
@@ -66,9 +64,6 @@ function showRamenInfo(ramenObj){
     ramenRating.addEventListener("submit", updateRating)
 
 }
-
-
-
 
 function updateRating(event){
     event.preventDefault()
