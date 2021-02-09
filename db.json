@@ -9,12 +9,9 @@
       "comment": "Delish. Can't go wrong with a classic!"
     },
     {
-      "id": 2,
-      "name": "Naruto Ramen",
-      "restaurant": "Naruto",
-      "image": "./assets/ramen/naruto.jpg",
-      "rating": 10,
-      "comment": "My absolute fave!"
+      "rating": "10",
+      "comment": "My absolute fave!",
+      "id": 2
     },
     {
       "id": 3,
